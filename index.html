@@ -1,0 +1,226 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LecheríaSur</title>
+    <link rel="icon" type="image/x-icon" href="img/IconLecheria.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Style.css">
+  </head>
+  <body>
+    <!-- Barra de Navegación-->
+    <header>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">   
+            <i class="fas fa-bars"></i>
+        </span>
+    </button>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="img/logolechería.jpg" alt="" width="70" height="90">
+          <a class="navbar-brand" href="#">LechesSur</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center justify-content-center" id="Menúdelnavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Noticias">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Publicaciones">Publicaciones</a>
+                <li class="nav-item">
+                  <a class="nav-link link_contacto" href="#Contactanos">Contáctanos </a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <br>
+      <!-- Carrusel de lechería-->
+      <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/portada1.jpg" class="d-block w-100" alt="Leche">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 id="textocarrusel1">La Mejor leche del sur</h2>
+              <p id="textocarrusel2"> Leche que se hace con cariño</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Portada2.jpg" class="d-block w-100" alt="Natural">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 id="textocarrusel1">Leche 100% natural</h2>
+              <p id="textocarrusel2">Leche natural de vaca campesina</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img  src="img/Portada3.jpg" class="d-block w-100" height="625" alt="Caravaca">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 id="textocarrusel1">Leche, Quesos Y cremas</h2>
+              <p id="textocarrusel2">Disfruta la leche en muchas de sus variantes.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--QUIENES SOMOS-->
+      <div id="quienes_somos" class="container mt-3 mb-3 text-center">
+        <h2 class="mt-2 mb-2">QUIENES SOMOS</h2>
+        <p class="p_justificado">Ubicados en el corazón del sur de Chile, somos la empresa lechera más grande del país, estimando la producción de más de 183 millones de litros de leche al cierre de esta temporada. Somos expertos en producción sostenible de leche como de siembra de praderas, liderando con un modelo de gestión preocupado de sus impactos socio ambientales, centrado en sus colaboradores, entorno y comunidades.</p>
+      </div>
+      <!--PRODUCTOS LECHERÍA-->
+      <div id="Productos" class="container">
+        <h1 class="mb-3 text-center">Productos</h1>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-xl-3">
+              <div class="card div_card">
+                  <img src="img/Quesos.png" class="img_card p-3" alt="queso laminado">
+                  <div class="card-body">
+                      <h5 class="card-title c_title">Quesos</h5>
+                      <p class="card-text">
+                        Perfecto para acompañar con un pansito <br>
+                        Tenemos los mejores quesos de todo chile
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3">
+              <div class="card div_card">
+                  <img src="img/Leches.png" class="img_card p-3" alt="queso al merkén">
+                  <div class="card-body">
+                      <h5 class="card-title c_title">Leches</h5>
+                      <p class="card-text">
+                        Disfruta de la leche más dulce de todo el sur
+                        100% natural sin quimicos.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3">
+              <div class="card div_card">
+                  <img src="img/Cremas.png" class="img_card p-3" alt="queso al orégano">
+                  <div class="card-body">
+                      <h5 class="card-title c_title">Cremas</h5>
+                      <p class="card-text">
+                          Compra la mejor crema para postres de todo el sur de chile
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3">
+              <div class="card div_card">
+                  <img src="img/manjar.jpg" class="img_card p-3" alt="queso fresco">
+                  <div class="card-body">
+                      <h5 class="card-title c_title">Manjar</h5>
+                      <p class="card-text">
+                          Disfruta del mejor manjar del sur de chile <br>
+                          Creda en base a leche natural recién exprimida de la vaca <br>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Noticias Lechería-->
+      <div id="Noticias" class="container mt-3 mb-3">
+        <h1 class="text-center mb-3">Noticias</h1>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+                <img class="img-fluid" src="img/leche_uno.jpeg">
+                <p class="p_justificado mt-3"> Con estrategia de fortificación láctea buscan revertir déficit de vitamina D en Chile</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="img-fluid" src="img/Noticia3.jpg">
+            <p class="p_justificado mt-3">Los avances sectoriales: La sustentabilidad láctea está en marcha</p>
+          </div>
+        </div>
+      </div>
+      <!--Publicaciones Lechería-->
+      <div id="Publicaciones">
+      <h1 class="text-center" ">Publicaciones</h1>
+      <br>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Publicación1.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div id="cuerpo_card" class="col-md-8">
+            <div id="interior_card" class="card-body">
+              <h5 class="titulo_publicacion">Nueva publicacion lechesSur</h5>
+              <p class="card-text"><small class="text-muted">Ultima actulizacción hace 5 minutos</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--Formulario de contacto-->
+      <div id="Contactanos"  class="col-xs-12 container mb-4 mt-4">
+        <form>
+            <h4 class="text-center h4_title">CONTACTANOS</h4>
+            <p>Si deseas contactarnos para cualquier tipo de consula sobre nuesros productos o relacionadas a la venta, No dudes en completar el siguiente formulario:</p>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 mb-3">
+                    <label for="name" class="form-label">Nombre completo:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-xs-12 col-md-6 mb-3">
+                    <label for="email" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 mb-3">
+                    <label for="phone" class="form-label">Teléfono:</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+                <div class="col-xs-12 col-md-6 mb-3">
+                    <label for="asunto" class="form-label">Asunto:</label>
+                    <input type="email" class="form-control" id="asunto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea id="mensaje" class="form-control" name="mensaje" rows="10" cols="50">
+                    </textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary boton_enviar">Enviar</button>
+            </div>
+        </form>
+      </div>
+    <footer id="footer">
+        <div>
+            <p class="parrafo_f">LechesSur derechos reservados © 2022 -  Por Daniel Leal Quezada</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

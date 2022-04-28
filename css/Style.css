@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    font-family: 'jua';
+    background-color: #007CBA;
+    width: 2000x;
+    margin: auto;
+    background-blend-mode: color-dodge;
+}
+#Menúdelnavbar ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 13px !important;
+    border-radius: 50px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    color: black;
+}
+#Menúdelnavbar ul li a:hover{
+    border: 2px solid #95DAF8;
+    color: #95DAF8;
+    font-weight: 700;
+}
+.link_contacto {
+    background-color: #95DAF8;
+    color: white !important;
+}
+.link_contacto:hover {
+    background-color: white;
+    color: #95DAF8 !important;
+    border: 3px solid #95DAF8;
+}
+.carousel-inner {
+    border-radius: 20px;
+    border: 2px solid #95DAF8;
+}
+
+#textocarrusel1 {
+    text-shadow: 2px 2px 5px black;
+    font-family: 'jua';
+}
+
+#textocarrusel2 {
+    text-shadow: 2px 2px 5px black;
+    font-family: 'jua';
+}
+
+.p_justificado {
+    text-align: justify;
+}
+
+.div_card {
+    background-color: #C6E9F9;
+    font-family: 'jua';
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 5px 5px #95DAF8;
+    height: 475px;
+    border-radius: 20px;
+    border: 2px solid #95DAF8;
+}
+
+.img_card {
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+}
+
+#quienes_somos {
+    font-family: 'jua';
+    background-color: #C6E9F9;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 5px 5px #95DAF8;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #95DAF8;
+}
+h1{
+    font-family: 'jua';
+    background-color:#95DAF8;
+    border-radius: 100px;
+    box-shadow: 1px 3px 5px black;
+    text-shadow: 0px 3px 5px white;
+}
+
+#cuerpo_card {
+    background-color: #C6E9F9;
+    border-radius: 3px;
+    border-style: inset;
+    border-color: #95DAF8;
+}
+
+#interior_card {
+    font-family: 'jua';
+}
+
+form {
+    font-family: 'jua';
+    width: auto;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    background-color: #C6E9F9;
+    padding-left: 30px;
+    justify-content: center;
+    border-style: inset;
+    border-color: #95DAF8;
+}
+
+.boton_enviar:hover,
+.boton_enviar:active,
+.boton_enviar:focus {
+    background-color: white;
+    border: 2px solid #95DAF8;
+    color: #95DAF8;
+}
+
+#footer {
+    font-family: 'jua';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: #333;
+    color: white;
+}
+
+.parrafo_f {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
